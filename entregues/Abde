@@ -1,3 +1,6 @@
+# Joc del dau
+Si el valor del dau es 2 o 4 no mels quedo.
+
 create function dbo.melsquedo (@nJugador as int, @dau as int)
 returns integer
 as begin
