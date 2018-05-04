@@ -1,0 +1,14 @@
+create function dbo.melsquedo (@nJugador as int, @dau as int)
+returns integer
+as begin
+	declare @melquedo bit;
+	  if @dau IN (2,3)
+		  begin
+		  set @melquedo=0
+		  end;
+	  else 
+		  begin
+		  set @melquedo=1
+		  end;
+	return @melquedo
+end;
